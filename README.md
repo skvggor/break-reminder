@@ -34,3 +34,7 @@ systemctl --user stop break-reminder.timer
 # Restart
 systemctl --user start break-reminder.timer
 ```
+
+## License
+
+[GNU GPLv3](LICENSE)

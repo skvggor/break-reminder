@@ -1,0 +1,6 @@
+[Unit]
+Description=Break reminder notification
+
+[Service]
+Type=oneshot
+ExecStart=%h/Projects/personal/break-reminder/break-reminder.sh

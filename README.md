@@ -1,4 +1,7 @@
-# break-reminder
+<p align="center">
+  <img src="assets/icon.svg" alt="break-reminder icon" width="120" height="120"/><br/>
+  <h1 align="center">break-reminder</h1>
+</p>
 
 Periodic desktop notifications with sound via systemd user timer.
 

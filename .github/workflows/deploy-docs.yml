@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.PORT || 22 }}
           script: |
-            cd /root/projects/break-reminder
+            cd /root/projects/break-reminder/docs
 
             git pull origin main
 

@@ -1,0 +1,17 @@
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
+import tailwindcss from "@tailwindcss/vite";
+
+export default defineConfig({
+  site: "https://break-reminder.reposito.rio.br",
+  integrations: [
+    starlight({
+      title: "break-reminder",
+      customCss: ["./src/styles/global.css"],
+      components: {
+        Footer: "./src/components/Footer.astro",
+      },
+    }),
+  ],
+  vite: { plugins: [tailwindcss()] },
+});
